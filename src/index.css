@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary-dark: #1e3a8a;
+  --color-primary-light: #3b82f6;
+  --color-sky-light: #7dd3fc;
+  
+  --shadow-blue: 0 0 20px rgba(59, 130, 246, 0.2);
+}
+
+:root {
+  background-color: #020617; /* slate-950 */
+  color: #e2e8f0; /* slate-200 */
+}
+
+.bg-dtanya-gradient {
+  background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ffffff, #93c5fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-immersive {
+  background: rgba(15, 23, 42, 0.4); /* slate-900 with opacity */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+}
+
+.sidebar-item-active {
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #dbeafe;
+}
